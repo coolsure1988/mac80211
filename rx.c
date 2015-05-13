@@ -30,9 +30,10 @@
 #include "tkip.h"
 #include "wme.h"
 #include "rate.h"
-#include "lzy.h"
+
 
 // sure start
+#include "lzy.h"
 extern int mac_num;
 extern char mac_buf[BUF_SIZE][18];
 extern int record_mac;
